@@ -1,0 +1,20 @@
+*{
+        list-style: none;
+        box-sizing: border-box;
+}
+.gallery {
+    margin: 24px auto;
+        display: flex;
+    flex-wrap: wrap;
+    max-width: 1128px;
+    gap: 24px;
+        padding-inline-start: 0px;
+}
+
+.gallery-image{
+    width: 360px;
+    height: 200px;
+}
+.gallery-item:hover {
+    cursor: url('/cursor.svg') 22 22, auto;
+}
